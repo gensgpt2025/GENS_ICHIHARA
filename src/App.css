@@ -1,3 +1,72 @@
-body {
-  font-family: 'Montserrat', sans-serif;
+.App {
+  text-align: center;
+}
+
+.hero-section {
+  min-height: 60vh; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-intro-section img {
+  max-height: 400px; /* Limit image height */
+  object-fit: contain;
+}
+
+.video-section .card-body {
+  text-align: left;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: 250px; /* Fixed height for gallery images */
+  object-fit: cover; /* Cover the area, cropping if necessary */
+  margin-bottom: 15px;
+}
+
+.action-buttons-section .btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.hero-section h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+  color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 40vh;
+  }
+
+
+  .team-intro-section img {
+    max-height: 250px;
+  }
+
+  .gallery-section img {
+    height: 150px;
+  }
+
+  .action-buttons-section .btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+  }
 }
