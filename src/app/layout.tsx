@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const garamond = EB_Garamond({ subsets: ["latin"], weight: "700" });
 
 export const metadata: Metadata = {
   title: "GENS ICHIHARA FUTSAL OFFICIAL",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} bg-gray-900 text-white`}>{children}</body>
+      <body className={`${garamond.className} text-white`}>{children}</body>
     </html>
   );
 }

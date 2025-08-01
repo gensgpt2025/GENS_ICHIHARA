@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #111827; /* bg-gray-900 */
-  background-image: radial-gradient(circle at top left, rgba(255, 215, 0, 0.1), transparent 30%),
-                    radial-gradient(circle at bottom right, rgba(220, 38, 38, 0.1), transparent 30%);
+  background-color: #000000;
   color: #ffffff;
 }
