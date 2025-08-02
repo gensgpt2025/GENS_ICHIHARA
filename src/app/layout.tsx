@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${garamond.className} text-white`}>{children}</body>
+      <body className={`${garamond.className} text-white pt-16`}>{children}</body>
     </html>
   );
 }

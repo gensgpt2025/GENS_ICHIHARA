@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/#news</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/#matches</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/#team</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/#sns</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
